@@ -1,6 +1,6 @@
 import React, { ReactNode } from "react";
 import "./Header.css";
-import logoimage from "../imgs/logo.png";
+import logoimage from "../imgs/amuse_logo.png";
 
 interface Props {
   children: ReactNode;
@@ -8,7 +8,7 @@ interface Props {
 
 const MenuItem = ({ children }: Props) => <div className="menu-item">{children}</div>;
 
-const Header = () => {
+function Header() {
   return (
     <div>
       <img className="logo" src={logoimage} alt="Amuse Travel Logo" />
@@ -22,6 +22,6 @@ const Header = () => {
       </div>
     </div>
   );
-};
+}
 
 export default Header;

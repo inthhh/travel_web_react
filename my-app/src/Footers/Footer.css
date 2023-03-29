@@ -1,0 +1,17 @@
+.footer {
+  width: 100%;
+  padding-top: 2rem;
+}
+
+.footer_text {
+  margin-left: 4rem;
+}
+
+.bottom {
+  background-color: lightgray;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.bottom_text {
+  margin-left: 4rem;
+}

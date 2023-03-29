@@ -1,0 +1,19 @@
+.sns {
+  float: left;
+  width: 200px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-align: center;
+  margin-right: 1rem;
+  background-color: pink;
+}
+
+.middle {
+  text-align: center;
+  /* clear: both; */
+}
+
+.logoImgs {
+  width: 100px;
+  float: left;
+}
