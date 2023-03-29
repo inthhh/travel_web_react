@@ -1,0 +1,36 @@
+.logo {
+  height: 3rem;
+  background-color: #ffffff;
+  line-height: 3.5rem;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.menu {
+  background-color: #ffffff;
+  height: 3.5rem;
+}
+
+.menu-item {
+  display: inline-block;
+  color: rgb(59, 59, 59);
+  font-size: 1rem;
+  font-style: bold;
+  line-height: 3.5rem;
+  width: 15%;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  text-decoration: none;
+}
+
+.menu-item:hover {
+  background-color: rgb(228, 228, 228);
+}
+
+.menu-item:active,
+.menu-item.active {
+  background-color: rgb(230, 172, 184);
+}
