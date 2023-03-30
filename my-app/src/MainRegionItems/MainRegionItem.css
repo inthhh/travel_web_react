@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  /* justify-content: space-between; */
+  width: 100%;
+  /* max-width: 900px; */
+}
+
+.regionBox {
+  width: 200px;
+  height: 150px;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+}

@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  /* justify-content: space-between; */
+  width: 100%;
+  /* max-width: 900px; */
+}
+
+.box {
+  width: 200px;
+  height: 230px;
+  margin-right: 2rem;
+}
