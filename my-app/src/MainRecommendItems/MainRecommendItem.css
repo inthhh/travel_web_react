@@ -5,8 +5,8 @@
   /* max-width: 900px; */
 }
 
-.box {
-  width: 200px;
-  height: 230px;
-  margin-right: 2rem;
+.recBox {
+  width: 359px;
+  height: 300px;
+  border-radius: 12px;
 }

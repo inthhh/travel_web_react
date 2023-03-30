@@ -3,11 +3,11 @@
   /* justify-content: space-between; */
   width: 100%;
   /* max-width: 900px; */
+  margin-bottom: 24px;
 }
 
-.regionBox {
-  width: 200px;
+.regBox {
+  width: 359px;
   height: 150px;
-  margin-right: 2rem;
-  margin-bottom: 1rem;
+  border-radius: 12px;
 }

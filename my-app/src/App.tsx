@@ -13,8 +13,10 @@ function App() {
     <div>
       <div className="App">
         <Header />
-        <br />
-
+      </div>
+      <div className="liner"></div>
+      <br />
+      <div className="App">
         <MainBestItem />
         <MainRecommendItem />
         <MainNews />
