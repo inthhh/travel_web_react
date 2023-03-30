@@ -1,3 +1,10 @@
+.top {
+  display: flex;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 .logo {
   height: 3rem;
   background-color: #ffffff;
@@ -6,6 +13,30 @@
   font-size: 1.5rem;
   font-weight: bold;
   margin: 10px;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+input[type="text"] {
+  border: none;
+  padding: 10px;
+  margin-right: 10px;
+  width: 200px;
+  background-color: rgb(235, 235, 235);
+}
+
+button {
+  background-color: #929292;
+  color: white;
+  border: none;
+  padding: 10px 10px;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 .menu {
@@ -33,10 +64,4 @@
 .menu-item:active,
 .menu-item.active {
   background-color: rgb(230, 172, 184);
-}
-
-.line {
-  height: 1px;
-  width: 100%;
-  background-color: black;
 }

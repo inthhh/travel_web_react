@@ -11,7 +11,13 @@ const MenuItem = ({ children }: Props) => <div className="menu-item">{children}<
 function Header() {
   return (
     <div>
-      <img className="logo" src={logoimage} alt="Amuse Travel Logo" />
+      <div className="top">
+        <img className="logo" src={logoimage} alt="Amuse Travel Logo" />
+        <div className="search-box">
+          <input type="text" placeholder="Search..." />
+          <button>Search</button>
+        </div>
+      </div>
       <div className="menu">
         <MenuItem>👨🏼‍🦯 컨시어지 여행</MenuItem>
         <MenuItem>👶🏻 아이돌봄 여행</MenuItem>
