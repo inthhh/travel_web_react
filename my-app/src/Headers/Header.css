@@ -30,13 +30,18 @@ input[type="text"] {
   background-color: rgb(235, 235, 235);
 }
 
-button {
+.searchBtn {
   background-color: #929292;
   color: white;
   border: none;
   padding: 10px 10px;
   border-radius: 5px;
   cursor: pointer;
+}
+
+.whiteSquare {
+  background-color: white;
+  width: 30%;
 }
 
 .menu {
@@ -64,4 +69,20 @@ button {
 .menu-item:active,
 .menu-item.active {
   background-color: rgb(230, 172, 184);
+}
+
+.loginBtn {
+  width: 80px;
+  height: 40px;
+  margin-top: 10px;
+  border: none;
+  background-color: transparent;
+}
+
+.signInBtn {
+  width: 80px;
+  height: 40px;
+  margin-top: 10px;
+  border: none;
+  background-color: rgb(255, 169, 188);
 }

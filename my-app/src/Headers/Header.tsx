@@ -15,8 +15,11 @@ function Header() {
         <img className="logo" src={logoimage} alt="Amuse Travel Logo" />
         <div className="search-box">
           <input type="text" placeholder="Search..." />
-          <button>Search</button>
+          <button className="searchBtn">Search</button>
         </div>
+        <div className="whiteSquare"></div>
+        <button className="loginBtn">로그인</button>
+        <button className="signInBtn">회원가입</button>
       </div>
       <div className="menu">
         <MenuItem>👨🏼‍🦯 컨시어지 여행</MenuItem>
