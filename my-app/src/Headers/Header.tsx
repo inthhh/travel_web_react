@@ -1,6 +1,6 @@
 import React, { ReactNode } from "react";
 import "./Header.css";
-import logoimage from "../imgs/amuse_logo.png";
+import logoimage from "../MainPage/MainImgs/amuse_logo.png";
 
 interface Props {
   children: ReactNode;

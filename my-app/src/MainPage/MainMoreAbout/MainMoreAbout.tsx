@@ -1,11 +1,11 @@
 import React, { ReactNode } from "react";
 import "./MainMoreAbout.css";
-import bcorplogo from "../imgs/bcorplogo.svg";
-import logo01 from "../imgs/logo01.svg";
-import logo02 from "../imgs/logo02.svg";
-import logo03 from "../imgs/logo03.svg";
-import logo04 from "../imgs/logo04.svg";
-import logo05 from "../imgs/logo05.svg";
+import bcorplogo from "../MainImgs/bcorplogo.svg";
+import logo01 from "../MainImgs/logo01.svg";
+import logo02 from "../MainImgs/logo02.svg";
+import logo03 from "../MainImgs/logo03.svg";
+import logo04 from "../MainImgs/logo04.svg";
+import logo05 from "../MainImgs/logo05.svg";
 
 function MainMoreAbout() {
   return (

@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
 import Header from "./Headers/Header";
-import MainBestItem from "./MainBestItems/MainBestItem";
-import MainRecommendItem from "./MainRecommendItems/MainRecommendItem";
-import MainNews from "./MainNews/MainNews";
-import MainRegionItem from "./MainRegionItems/MainRegionItem";
-import MainMoreAbout from "./MainMoreAbout/MainMoreAbout";
+import MainBestItem from "./MainPage/MainBestItems/MainBestItem";
+import MainRecommendItem from "./MainPage/MainRecommendItems/MainRecommendItem";
+import MainNews from "./MainPage/MainNews/MainNews";
+import MainRegionItem from "./MainPage/MainRegionItems/MainRegionItem";
+import MainMoreAbout from "./MainPage/MainMoreAbout/MainMoreAbout";
 import Footer from "./Footers/Footer";
 
 function App() {
