@@ -10,15 +10,21 @@ interface Props {
 }
 
 function Header() {
-  // const movePage = useNavigate();
-  const navigateToConcierge = () => {
-    // movePage("../Concierge/Concierge");
+  const movePage = useNavigate();
+  const navigateToHome = () => {
+    movePage("/");
   };
+  const navigateToConcierge = () => {
+    movePage("/Concierge");
+  };
+
   const MenuItem = ({ children }: Props) => <div className="menu-item">{children}</div>;
   return (
     <div>
       <div className="top">
-        <img className="logo" src={logoimage} alt="Amuse Travel Logo" />
+        <div onClick={navigateToHome}>
+          <img className="logo" src={logoimage} alt="Amuse Travel Logo" />
+        </div>
         <div className="search-box">
           <input type="text" placeholder="Search..." />
           <button className="searchBtn">Search</button>
