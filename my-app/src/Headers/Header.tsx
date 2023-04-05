@@ -1,14 +1,20 @@
 import React, { ReactNode } from "react";
 import "./Header.css";
+import { useNavigate } from "react-router-dom";
 import logoimage from "../MainPage/MainImgs/amuse_logo.png";
+import Concierge from "../Concierge/Concierge";
+import { Link } from "react-router-dom";
 
 interface Props {
   children: ReactNode;
 }
 
-const MenuItem = ({ children }: Props) => <div className="menu-item">{children}</div>;
-
 function Header() {
+  // const movePage = useNavigate();
+  const navigateToConcierge = () => {
+    // movePage("../Concierge/Concierge");
+  };
+  const MenuItem = ({ children }: Props) => <div className="menu-item">{children}</div>;
   return (
     <div>
       <div className="top">
@@ -22,7 +28,9 @@ function Header() {
         <button className="signInBtn">회원가입</button>
       </div>
       <div className="menu">
-        <MenuItem>👨🏼‍🦯 컨시어지 여행</MenuItem>
+        <div className="menu-item" onClick={navigateToConcierge}>
+          👨🏼‍🦯 컨시어지 여행
+        </div>
         <MenuItem>👶🏻 아이돌봄 여행</MenuItem>
         <MenuItem>👴🏼 어르신돌봄 여행</MenuItem>
         <MenuItem>🖥 랜선 여행</MenuItem>
