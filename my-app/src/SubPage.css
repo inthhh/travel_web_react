@@ -46,3 +46,16 @@
   margin-top: 0px;
   /* background: rgba(47, 47, 47, 0.5); */
 }
+
+.container {
+  display: flex;
+  /* justify-content: space-between; */
+  width: 100%;
+  /* max-width: 900px; */
+}
+
+.box {
+  width: 540px;
+  height: 300px;
+  border-radius: 12px;
+}

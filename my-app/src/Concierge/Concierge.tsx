@@ -5,6 +5,10 @@ import Footer from "../Footers/Footer";
 import "../SubPage.css";
 import ConciergeTitle from "../SubtitleImgs/ConciergeTitle.jpg";
 
+const Box = ({ backgroundColor, marginRight }: { backgroundColor: string; marginRight: string }) => (
+  <div className="box" style={{ backgroundColor, marginRight }}></div>
+);
+
 function Concierge() {
   return (
     <div>
@@ -18,7 +22,13 @@ function Concierge() {
         <h2 className="subTitle">누구나 즐겁게 떠나는 여행</h2>
         <h3 className="subContent">장애 유형별 맞춤형 일정으로 진행되는 풀컨시어지 여행</h3>
       </div>
-      <div className="App"></div>
+      <div className="App">
+        <h2 style={{ marginTop: "2rem" }}>컨시어지 여행 Best 상품🏞</h2>
+        <div className="container">
+          <Box backgroundColor="lightgray" marginRight="57px" />
+          <Box backgroundColor="lightgray" marginRight="0" />
+        </div>
+      </div>
       <Footer />
     </div>
   );
