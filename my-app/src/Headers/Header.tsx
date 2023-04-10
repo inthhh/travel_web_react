@@ -26,12 +26,10 @@ function Header() {
   return (
     <div>
       <div className="top">
-        <div onClick={navigateToHome}>
-          <img className="logo" src={logoimage} alt="Amuse Travel Logo" />
-        </div>
+        <img className="logo" src={logoimage} alt="Amuse Travel Logo" onClick={navigateToHome} />
         <div className="search-box">
-          <input type="text" placeholder="Search..." />
-          <button className="searchBtn">Search</button>
+          <input type="text" placeholder="🔍 여행 키워드를 검색해보세요!" />
+          <button className="searchBtn">검색</button>
         </div>
         <div className="whiteSquare"></div>
         <button className="loginBtn">로그인</button>
