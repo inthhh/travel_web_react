@@ -5,10 +5,6 @@ import logoimage from "../MainPage/MainImgs/amuse_logo.png";
 import Concierge from "../Concierge/Concierge";
 import { Link } from "react-router-dom";
 
-interface Props {
-  children: ReactNode;
-}
-
 function Header() {
   const movePage = useNavigate();
   const navigateToHome = () => {
@@ -17,8 +13,16 @@ function Header() {
   const navigateToConcierge = () => {
     movePage("/Concierge");
   };
+  const navigateToChildCare = () => {
+    movePage("/ChildCare");
+  };
+  const navigateToSeniorCare = () => {
+    movePage("/SeniorCare");
+  };
+  const navigateToOnlineTour = () => {
+    movePage("/OnlineTour");
+  };
 
-  const MenuItem = ({ children }: Props) => <div className="menu-item">{children}</div>;
   return (
     <div>
       <div className="top">
@@ -37,11 +41,17 @@ function Header() {
         <div className="menu-item" onClick={navigateToConcierge}>
           👨🏼‍🦯 컨시어지 여행
         </div>
-        <MenuItem>👶🏻 아이돌봄 여행</MenuItem>
-        <MenuItem>👴🏼 어르신돌봄 여행</MenuItem>
-        <MenuItem>🖥 랜선 여행</MenuItem>
-        <MenuItem> </MenuItem>
-        <MenuItem>회사 소개</MenuItem>
+        <div className="menu-item" onClick={navigateToChildCare}>
+          👶🏻 아이돌봄 여행
+        </div>
+        <div className="menu-item" onClick={navigateToSeniorCare}>
+          👴🏼 어르신돌봄 여행
+        </div>
+        <div className="menu-item" onClick={navigateToOnlineTour}>
+          🖥 랜선 여행
+        </div>
+        <div className="menu-item"> </div>
+        <div className="menu-item">회사 소개</div>
       </div>
     </div>
   );
